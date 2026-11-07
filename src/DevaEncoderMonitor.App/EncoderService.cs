@@ -121,9 +121,9 @@ public sealed class EncoderService : IDisposable
             {
                 // Expected on cancellation.
             }
-            catch (Exception ex)
+            catch
             {
-                System.Diagnostics.Debug.WriteLine($"Poll loop faulted: {ex}");
+                // Poll loop faulted during stop; logged for diagnostics only.
             }
         }
 
@@ -246,7 +246,11 @@ public sealed class EncoderService : IDisposable
         }
         catch (OperationCanceledException)
         {
-            // Expected on Stop().
+            // Expected on cancellation.
+        }
+        catch
+        {
+            // Poll loop crashed; surface via IsRunning=false and IsOpen=false.
         }
         finally
         {

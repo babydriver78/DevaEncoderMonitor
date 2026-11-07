@@ -109,8 +109,10 @@ public class SimulatedEnclibTests
 
         lib.CloseEncoder(); // pauses motion
 
-        // Reopen to read; profiles are still stationary so the position must not change.
+        // Reopen sets the 60 RPM demo profile again; override to stationary so we can
+        // verify that CloseEncoder actually paused the motion.
         lib.OpenEncoder();
+        lib.SetProfile(0, new StationaryProfile());
         lib.Tick(5.0);
         int after = (int)lib.ReadEncoder(EnclibCmd.AXIS_32, 0);
 

@@ -43,6 +43,11 @@ public sealed class SimulatedEnclib : IEnclib
             }
 
             _isOpen = true;
+
+            // Demo profile: Axis 0 spins at 60 RPM CW so the DRO shows live values immediately.
+            _profiles[0] = new ConstantSpeedProfile(60);
+            _engine.SetProfile(0, _profiles[0]);
+
             return 0;
         }
     }
@@ -182,6 +187,8 @@ public sealed class SimulatedEnclib : IEnclib
             EnclibCmd.AXIS_32 => _engine.ReadAxis(axis),
             EnclibCmd.VEL_INST => _engine.GetVelInst(axis),
             EnclibCmd.VEL_FILT => _engine.GetVelFilt(axis),
+            EnclibCmd.AXIS_INPUTS => _engine.GetAxisInputs(axis),
+            EnclibCmd.AXIS_STATUS => 0, // nominal; no faults simulated
             EnclibCmd.ACCEL_INST => 0, // deferred
             EnclibCmd.ACCEL_FILT => 0, // deferred
             EnclibCmd.MARK_32 => 0, // deferred

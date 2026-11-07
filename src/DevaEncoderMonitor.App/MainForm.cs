@@ -44,8 +44,9 @@ public partial class MainForm : Form
         UpdateAxisDisplay(1);
         UpdateAxisDisplay(2);
 
-        lblOpenState.Text = _encoderService.IsRunning ? "Open" : "Closed";
-        lblOpenState.ForeColor = _encoderService.IsRunning ? Color.Green : Color.Red;
+        bool running = _encoderService.IsRunning;
+        lblOpenState.Text = running ? "Open" : "Closed";
+        lblOpenState.ForeColor = running ? Color.Green : Color.Red;
 
         UpdateStatusStrip();
     }
