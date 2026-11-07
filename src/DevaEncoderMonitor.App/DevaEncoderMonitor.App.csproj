@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DevaEncoderMonitor.App</RootNamespace>
+    <AssemblyName>DevaEncoderMonitor.App</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../DevaEncoderMonitor.Core/DevaEncoderMonitor.Core.csproj" />
+  </ItemGroup>
+
+</Project>
