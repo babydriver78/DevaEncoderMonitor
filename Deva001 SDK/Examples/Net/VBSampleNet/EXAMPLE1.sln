@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EXAMPLE1", "EXAMPLE1.vbproj", "{6D1619EA-891B-4FF6-9DE2-F04320B8248B}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = EXAMPLE1.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Debug|x64.ActiveCfg = Debug|x64
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Debug|x64.Build.0 = Debug|x64
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Debug|x86.ActiveCfg = Debug|x86
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Debug|x86.Build.0 = Debug|x86
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Release|x64.ActiveCfg = Release|x64
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Release|x64.Build.0 = Release|x64
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Release|x86.ActiveCfg = Release|x86
+		{6D1619EA-891B-4FF6-9DE2-F04320B8248B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

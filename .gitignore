@@ -1,0 +1,18 @@
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.DotSettings.user
+.vs/
+TestResults/
+*.trx
+*.nupkg
+*.snupkg
+packages/
+.idea/
+
+# OS junk
+Thumbs.db
+.DS_Store

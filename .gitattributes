@@ -1,0 +1,22 @@
+# Normalize line endings for all text files to prevent git warnings
+* text=auto
+
+# C# and project files: force LF on checkout, CRLF on commit (Windows friendly)
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+*.config text eol=lf
+
+# Docs and data
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.csv text eol=lf
+
+# Binaries: leave as-is
+*.dll binary
+*.exe binary
+*.pdb binary
+*.user binary
+*.suo binary

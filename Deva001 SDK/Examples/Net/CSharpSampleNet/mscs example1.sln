@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscs example1", "mscs example1.csproj", "{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = mscs\u0020example1.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Debug|x64.ActiveCfg = Debug|x64
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Debug|x64.Build.0 = Debug|x64
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Debug|x86.ActiveCfg = Debug|x86
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Debug|x86.Build.0 = Debug|x86
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Release|x64.ActiveCfg = Release|x64
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Release|x64.Build.0 = Release|x64
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Release|x86.ActiveCfg = Release|x86
+		{FCC58862-A1AD-4B8B-9D6A-AAB9CE0540D4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
